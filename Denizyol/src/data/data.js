@@ -1,5 +1,4 @@
 export const item = [
-  // 🧴 BEAUTY (1–20)
   {
     id: 1,
     category: "beauty",
@@ -220,8 +219,6 @@ export const item = [
     isFavorite: false,
     onCart: false,
   },
-
-  // ⚡ ELECTRONICS (21–40)
   {
     id: 21,
     category: "electronics",

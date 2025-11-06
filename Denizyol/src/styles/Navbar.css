@@ -1,4 +1,3 @@
-/* ===== NAVBAR GENEL AYARLAR ===== */
 .navbar {
   margin: 0;
   padding: 0.75rem 2rem;
@@ -11,7 +10,6 @@
   margin: 0 auto;
 }
 
-/* ===== LOGO (DENIZYOL) ===== */
 .navbar .navbar-brand {
   color: #20c997 !important;
   font-weight: 700;
@@ -26,7 +24,6 @@
   text-shadow: 0 0 8px rgba(32, 201, 151, 0.3);
 }
 
-/* ===== ORTALAMA WRAPPER ===== */
 .navbar-content-wrapper {
   display: flex;
   justify-content: center;
@@ -36,7 +33,6 @@
   padding: 0 1rem;
 }
 
-/* ===== ARAMA ÇUBUĞU ===== */
 .search-form {
   display: flex;
   width: 100%;
@@ -80,7 +76,6 @@
   font-size: 1.1rem;
 }
 
-/* ===== KULLANICI MENÜSÜ ===== */
 .user-menu {
   display: flex;
   gap: 0.5rem;
@@ -117,7 +112,6 @@
   font-size: 1.1rem;
 }
 
-/* ===== HAMBURGER MENÜ ===== */
 .navbar-toggler {
   border: 2px solid #20c997;
   padding: 0.5rem 0.75rem;
@@ -131,9 +125,6 @@
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%2832, 201, 151, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
 
-/* ===== RESPONSIVE TASARIM ===== */
-
-/* Tablet ve altı (992px ve altı) */
 @media (max-width: 991px) {
   .navbar {
     padding: 0.75rem 1rem;
@@ -168,7 +159,6 @@
   }
 }
 
-/* Mobil (576px ve altı) */
 @media (max-width: 576px) {
   .navbar {
     padding: 0.5rem 0.75rem;
@@ -191,13 +181,11 @@
     font-size: 0.95rem;
   }
 
-  /* Mobilde menü öğelerini daha kompakt göster */
   .nav-text {
     display: inline;
   }
 }
 
-/* Büyük ekranlar (1200px ve üstü) */
 @media (min-width: 1200px) {
   .search-form {
     max-width: 650px;

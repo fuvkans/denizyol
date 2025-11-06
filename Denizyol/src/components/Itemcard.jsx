@@ -35,7 +35,6 @@ export default function Itemcard({ item }) {
         e.currentTarget.style.boxShadow = "0 2px 4px rgba(0,0,0,0.1)";
       }}
     >
-      {/* Image Container with Overlay */}
       <div
         className="position-relative overflow-hidden"
         style={{ height: "240px" }}
@@ -51,7 +50,6 @@ export default function Itemcard({ item }) {
           onMouseLeave={(e) => (e.currentTarget.style.transform = "scale(1)")}
         />
 
-        {/* Favorite Button Overlay - Top Right */}
         <button
           onClick={toggleFavorite}
           className="btn position-absolute top-0 end-0 m-3 rounded-circle border-0 shadow-sm"
