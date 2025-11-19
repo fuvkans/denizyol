@@ -6,6 +6,7 @@ import Address from "./pages/Address";
 import Favorites from "./pages/Favorites";
 import Cart from "./pages/Cart";
 import Account from "./pages/Account";
+import Footer from "./components/Footer.jsx";
 
 import Fashion from "./catalog/Fashion";
 import Electronics from "./catalog/Electronics";
@@ -50,6 +51,7 @@ export default function App() {
         <Route path="/beauty" element={<Beauty />} />
         <Route path="/sports" element={<Sports />} />
       </Routes>
+      <Footer />
     </>
   );
 }
